@@ -1,0 +1,49 @@
+html {
+  font-size: 10px;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 6.4px solid rgba(13, 13, 21, 0.4);
+  border-radius: 15px;
+  margin: 16px;
+  font-size: 24px;
+  padding: 16px 8px;
+  transition: all .07s ease;
+  width: 160px;
+  text-align: center;
+  color: white;
+  background: rgba(84, 84, 129, 0.4);
+  text-shadow: 0 0 .8px black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 16px #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 44px;
+}
+
+.sound {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: #050504;
+}
