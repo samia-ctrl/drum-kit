@@ -1,6 +1,5 @@
 body,html {
   font-family:'Courier New', Courier, monospace;
-  font-size: 10px;
 }
 
 h1, h2 {
@@ -18,8 +17,10 @@ h2 {
   background: rgba(84, 84, 129, 0.4);
   margin: 0 auto;
   display: block;
+  font-size: 15px;
 }
 .keys {
+  font-size: 10px;
   display: flex;
   flex: 1;
   min-height: 500px;
